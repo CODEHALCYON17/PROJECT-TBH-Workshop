@@ -1,0 +1,94 @@
+*{  box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    position:sticky;
+    
+}
+img{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.navbar a{
+text-decoration: none;
+border: 2px solid rgb(255, 255, 255);
+background-color: black;
+color: white;
+float: right;
+margin: 15px 10px;
+width: 81px;
+text-align: center;
+border-radius: 5px;
+padding: 2px;
+}
+
+#events{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding:200px;
+
+}
+
+#py,#cy{
+    padding: 34px;
+    border: 2px solid black;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    box-shadow: 0 4px 8px #333;
+    line-height: 2;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.cont{
+    border: 2px solid black;
+}
+header{
+    width: 100%;
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+#pt{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2;
+    height: auto;
+}
+.det{
+    margin-top:50px;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.det:hover{
+    background-color: rgb(255, 0, 17);
+}
+
+.navbar a:hover{
+    background-color: yellow;
+    }
